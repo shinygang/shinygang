@@ -1,0 +1,29 @@
+/* Basic */
+body, input, select, textarea {
+  font-size: 13pt; }
+
+/* BG */
+
+@-webkit-keyframes bg {
+  0% {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0); }
+  100% {
+    -webkit-transform: translate3d(-1300px,0,0);
+    -ms-transform: translate3d(-1300px,0,0);
+    transform: translate3d(-1300px,0,0); } }
+
+@keyframes bg {
+  0% {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0); }
+  100% {
+    -webkit-transform: translate3d(-1300px,0,0);
+    -ms-transform: translate3d(-1300px,0,0);
+    transform: translate3d(-1300px,0,0); } }
+
+#bg {
+  background-size: 1300px auto;
+  width: 3900px; }

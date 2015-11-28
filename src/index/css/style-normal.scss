@@ -1,0 +1,12 @@
+@import '../../common/css/vars';
+@import '../../common/css/mixins';
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+	
+/* BG */
+
+@include bg(1200px);

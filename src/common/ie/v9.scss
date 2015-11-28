@@ -1,0 +1,29 @@
+
+@import '../css/vars';
+@import '../css/mixins';
+
+/* Wrapper */
+#wrapper {
+	opacity: 1;
+}
+	
+/* Overlay */
+#overlay {
+	opacity: 1;
+}
+	
+/* Header */
+#header {
+	opacity: 1;
+
+	nav {
+		li {
+			opacity: 1;
+		}
+	}
+}
+	
+/* Footer */
+#footer {
+	background-image: url('images/footer.svg');
+}
