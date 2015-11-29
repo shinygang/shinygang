@@ -1,5 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("../../common/css/font-awesome.min.css");
+@import url(../../common/css/font-awesome.min.css);
 /* Basic */
 body, input, select, textarea {
   color: #fff;

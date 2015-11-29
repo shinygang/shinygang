@@ -16,7 +16,7 @@ let $ = loadPlugins()
 
 
 gulp.task('styles', () => {
-	return gulp.src([path.join(conf.paths.src,'**/*.scss')])
+	return gulp.src([path.join(conf.paths.src,'**/*.{scss,css}')])
 		.pipe($.sass()).on('error', conf.errorLog('sass'))
 		.pipe($.autoprefixer()).on('error', conf.errorLog('sass'))
 		.pipe($.sourcemaps.write())
