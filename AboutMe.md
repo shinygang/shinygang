@@ -81,5 +81,10 @@ when、http、underscore、sha1、MD5等一些模块，包括微信jsAPI、微�
 提高效率。在开发中，将通用的方法写成公共方法，减少代码冗余。
 
 
+## 个人作品
+### 微信端服务号：佰分鲜，空中外卖，有好居
+### 公司参与作品：[uhouzz](http://www.uhouzz.com) 包括pc和webapp.  [rap114](www.rap114.com)
+
+
 
     
