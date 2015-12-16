@@ -229,3 +229,65 @@ a {
 	text-align: center;
 	width: 100%;
 }
+
+@media screen and (max-width: 1680px) {
+	/* Basic */
+	body, input, select, textarea {
+		font-size: 13pt;
+	}
+	
+	/* BG */
+	@include bg(1300px);
+}
+
+@media screen and (max-width: 1280px) {
+	/* Basic */
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+	
+	/* BG */
+	@include bg(1200px);
+}
+@media screen and (max-width: 640px) {
+	/* Basic */
+	body {
+		min-width: 320px;
+	}
+	
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+	
+	/* BG */
+	@include bg(500px);
+	
+	/* Header */
+	#header {
+		h1 {
+			font-size: 2.5em;
+		}
+		
+		p {
+			font-size: 1em;
+		}
+		
+		nav {
+			font-size: 1em;
+	
+			a {
+				&:hover {
+					font-size: 1em;
+				}
+				
+				&:active {
+					font-size: 1em;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 360px) {
+	@include bg(750px);
+}

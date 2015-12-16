@@ -20,7 +20,7 @@ gulp.task('watch', ['styles', 'others', 'scripts', 'htmls'], () => {
 	/**
 	 * 监听样式文件变化
 	 */
-	gulp.watch([path.join(conf.paths.src, '/**/*.{less,css}')], event => {
+	gulp.watch([path.join(conf.paths.src, '/**/*.{scss,css}')], event => {
 		if (isOnlyChange(event)) {
 			gulp.start('styles');
 		}
