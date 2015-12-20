@@ -5,7 +5,7 @@
 
 座右铭：生的平凡，不能活的平凡 
 
-[github](https://github.com/shinygang)  or  [微博](http://weibo.com/5taowu)  or [个人网站ing](http://shinygang/github.io/shinygang)
+[github](https://github.com/shinygang)  or  [微博](http://weibo.com/5taowu)  or [个人网站](http://www.shinygang.cn)
 
 ## 职业技能
 **主要技术点：**html(5) + css(3) + js + Node.js + MongoDB + C# + MsSql + Mysql
