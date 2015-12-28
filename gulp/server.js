@@ -18,13 +18,6 @@ let browserServer = browserSync.create('shinygang');
  */
 let browserInit = baseDir => {
 	//启动服务
-	// browserServer.init({
-	// 	startPath:'/',
-	// 	baseDir: baseDir,
-	// 	index: 'index.html',
-	// 	browser:'default',
-	// 	port:'8070'
-	// });
 	browserServer.init({
         startPath: '/',
         server: {
@@ -33,6 +26,8 @@ let browserInit = baseDir => {
         browser: 'default',
         port: 8070
     });
+
+    //gulp.watch("**/*.html").on('change', browserSync.reload());
 }
 
 /**

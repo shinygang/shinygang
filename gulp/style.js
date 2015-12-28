@@ -19,7 +19,8 @@ gulp.task('styles', () => {
 	return gulp.src([path.join(conf.paths.src,'**/*.{scss,css}')])
 		.pipe($.sass()).on('error', conf.errorLog('sass'))
 		.pipe($.autoprefixer()).on('error', conf.errorLog('sass'))
+        .pipe($.csso())
 		.pipe($.sourcemaps.write())
-		.pipe(gulp.dest('./server'))
+		.pipe(gulp.dest(conf.paths.server))
 		.pipe(browserSync.reload({ stream: true }));
 });

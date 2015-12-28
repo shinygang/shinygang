@@ -14,5 +14,6 @@ let $ = loadPlugins();
 
 gulp.task('scripts', () => {
 	return gulp.src([path.join(conf.paths.src,'**/*.js')])
-		.pipe(gulp.dest('./server'));
+        //.pipe($.uglify({mangle: false}))
+		.pipe(gulp.dest(conf.paths.server));
 });

@@ -15,5 +15,11 @@ let $ = loadPlugins();
 gulp.task('htmls', () => {
 	return gulp.src([path.join(conf.paths.src,'**/*.html')])
 		.pipe($.replace('scss', 'css'))
-		.pipe(gulp.dest('./server'));
+        .pipe($.minifyHtml({
+            empty: true,
+            spare: true,
+            quotes: true,
+            conditionals: true
+        }))
+		.pipe(gulp.dest(conf.paths.server));
 });
