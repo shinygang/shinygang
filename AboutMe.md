@@ -8,7 +8,7 @@
 [github](https://github.com/shinygang)  or  [微博](http://weibo.com/5taowu)  or [个人网站](http://www.shinygang.cn)
 
 ## 职业技能简述
-本人对**前端构建(Gulp)、项目架构、模块化开发(Webpack)**有丰富经验，经历过多个从零到成熟的前端项目，既可以使用**Vue.js**等MVVM框架研发轻量级WebApp，也具备使用**AngularJS**开发复杂项目的丰富经验。会在项目中尝试使用**ES6**等新技术，也能够按照ES编码规范敏捷开发。能熟练使用**NodeJS**开发中间件服务。
+本人对**前端构建(Gulp)、项目架构、模块化开发(Webpack)**有丰富经验，经历过多个从零到成熟的前端项目，既可以使用**Vue.js**等MVVM框架研发轻量级WebApp，也具备使用**AngularJS**开发复杂项目的丰富经验。会在项目中大量使用**ES6**等技术，也能够按照ES编码规范敏捷开发。能熟练使用**NodeJS**开发中间件服务。
 
 本人对于前端的热爱，促使我不断学习更多技术，并用业余时间研发一些感兴趣的Demo，目前我使用**Vue.js**开发的[cnode社区开源项目](https://github.com/shinygang/Vue-cnodejs)，已在github上star数量超过500+
 
